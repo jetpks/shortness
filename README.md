@@ -24,8 +24,5 @@ shortness.get('t8j30vns', function(targetUrl) {
 # NOTES
 
 This is really just a very thin wrapper around sqlite3. It doesn't do any
-validation, and it doesn't respond via HTTP. It is, however, a nice module
-for a web service that needs to do url shortening.
-
-You will need to do your own HTTP stuff around this module. Really, it's just
-a glorified key value store.
+validation. You will need to do your own HTTP (or whatever protocol suits your
+fancy) stuff around this module. Really, it's just a glorified key value store.
