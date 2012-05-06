@@ -26,3 +26,5 @@ shortness.get('t8j30vns', function(targetUrl) {
 This is really just a very thin wrapper around sqlite3. It doesn't do any
 validation. You will need to do your own HTTP (or whatever protocol suits your
 fancy) stuff around this module. Really, it's just a glorified key value store.
+
+Available through npm: `npm install shortness`
