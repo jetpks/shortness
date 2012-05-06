@@ -1,0 +1,19 @@
+{
+  "author": "Eric Jacobs <eric@chomp.us>",
+  "name": "shorty",
+  "description": "Node based URL shortener that uses SQLite",
+  "version": "0.0.0",
+  "repository": {
+    "url": ""
+  },
+  "main": "main.js",
+  "dependencies": {
+    "sqlite3": "2.1.x",
+    "shortid": "~1.0.6"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
