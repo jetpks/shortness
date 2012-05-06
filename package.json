@@ -2,7 +2,7 @@
   "author": "Eric Jacobs <eric@chomp.us>",
   "name": "shortness",
   "description": "Node based URL shortener that uses SQLite",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "url": "git://github.com/techosaurus/shortness.git"
   },
