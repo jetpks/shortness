@@ -45,6 +45,10 @@
 
     query.get(function(err, row) {
       if(err) { throw err; }
+      if(!row) {
+        cb(undefined);
+        return;
+      }
       cb(row.target);
     });
   }
