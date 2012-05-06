@@ -1,8 +1,17 @@
-# NAME
+### NAME
 
 shortness
 
-# EXAMPLE
+### NOTES
+
+This is really just a very thin wrapper around sqlite3. It doesn't do any
+validation. You will need to do your own HTTP (or whatever protocol suits your
+fancy) stuff around this module. Really, it's just a glorified key value store.
+
+Available through npm: `npm install shortness`
+
+
+### EXAMPLE
 
 ```javascript
 var shortness = require('shortness')
@@ -20,11 +29,3 @@ shortness.get('t8j30vns', function(targetUrl) {
   // output: "real url: http://some-long-address.tld/with/some/more/longness"
 });
 ```
-
-# NOTES
-
-This is really just a very thin wrapper around sqlite3. It doesn't do any
-validation. You will need to do your own HTTP (or whatever protocol suits your
-fancy) stuff around this module. Really, it's just a glorified key value store.
-
-Available through npm: `npm install shortness`
