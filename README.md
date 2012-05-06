@@ -11,11 +11,13 @@ var shortness = require('shortness')
 // Adding!
 shortness.add('http://some-long-address.tld/with/some/more/longness', function(shortId) {
   console.log('new url: http://short.tld/' + shortId);
+  // output: "new url: http://short.tld/t8j30vns"
 });
 
 // Retreiving!
 shortness.get('t8j30vns', function(targetUrl) {
   console.log('real url: ', targetURL);
+  // output: "real url: http://some-long-address.tld/with/some/more/longness"
 });
 ```
 
