@@ -1,4 +1,4 @@
 module.exports = {
     tableName: "shortness"
-  , dbName: "./db/short.db"
+  , dbName: __dirname + "/db/short.db"
 }
